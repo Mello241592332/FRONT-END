@@ -1,0 +1,73 @@
+:root {
+  font-family: "Inter", sans-serif;
+  font-size: larger;
+}
+
+body {
+  font-family: "Inter", sans-serif;
+  font-size: larger;
+  background: url("assets/background/5570027.jpg") no-repeat;
+  background-size: cover;
+}
+
+.navbar-brand {
+  display: flex;
+  align-items: center; /* Alinha a imagem e o texto verticalmente no centro */
+}
+
+.navbar-brand img {
+  width: 60px;
+  height: 60px;
+  margin-right: 24px; 
+}
+
+.d-flex {
+  justify-content: space-between;
+}
+
+/* Reduz o tamanho de todos os elementos dentro da div container__mt-4 */
+.container__mt-4 {
+  transform: scale(0.8); /* Reduz o tamanho em 20% */
+  margin: 0 auto; 
+  padding-bottom: 200px;
+}
+
+
+.row {
+  display: flex;
+  justify-content: center; 
+  text-align: center; 
+}
+
+.table {
+  margin-top: 80px;
+}
+
+.profile-container {
+  display: flex;            
+  align-items: center;     
+  margin-top: 30px;         
+}
+
+.img {
+  height: 150px;            
+  width: 150px;             
+  border-radius: 50%;       
+  margin-left: 30px;
+}
+
+.profile-text {
+  margin-left: 20px;
+  display: flex;    
+}
+
+.profile-text h4 {
+  margin: 5px 0;          
+  font-size: 24px; 
+  padding-left: 50px ;         
+}
+
+.profile-text p {
+  margin: 0;              
+  font-size: 16px;         
+}
